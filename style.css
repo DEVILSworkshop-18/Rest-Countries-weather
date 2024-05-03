@@ -1,0 +1,97 @@
+
+body {
+    background-image: url('https://media.istockphoto.com/id/477110708/photo/weather-forecast.webp?b=1&s=170667a&w=0&k=20&c=cJDnRfarWTRVrTRGBv82aQUYmkgZp3FTCSLKLXdrcCU=');
+    background-position: center;
+}
+
+footer{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.card {
+    backdrop-filter: blur(15px) saturate(200%);
+    -webkit-backdrop-filter: blur(15px) saturate(200%);
+    -webkit-backdrop-filter: brightness(10%);
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    border: 1px solid rgb(248, 6, 6);
+}
+#title{
+    backdrop-filter: blur(15px) saturate(200%);
+    -webkit-backdrop-filter: blur(15px) saturate(200%);
+    -webkit-backdrop-filter: brightness(10%);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+}
+.image{
+    width: 250px;
+    height: 150px;
+    border-color: black;
+    border-style: outset;
+    border-radius: 0.5cm;
+}
+.card-header{
+    font-family:'Times New Roman', Times, serif;
+    font-stretch: expanded;
+    font-weight:bolder;
+    font-size:large;
+    color: rgb(0, 0, 0);
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+.btn_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-header{
+    background-color: rgb(36, 178, 239);
+    display:flex;
+    border-radius: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body{
+    background-color: rgb(36, 178, 239);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-footer{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-title{
+    background-color: rgb(36, 178, 239);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    color:azure;
+}
